@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page_title }}</title>
+</head>
+<body>
+<form action="" method="post">
+    <p>{{ form_error }}</p>
+    <table>
+        <tr>
+            <td>email: </td>
+            <td><input type="text" name="email" value="{{ email }}" placeholder="email"></td>
+        </tr>
+        <tr>
+            <td>password: </td>
+            <td><input type="password" name="password" value="{{ password }}" placeholder="password"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
